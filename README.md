@@ -13,11 +13,12 @@ Des groupes de travail se sont constitués sur le continent ces dernières anné
 
 Quelques ressources existent et bien même qu'une bonne partie de ces ressources soient privées, il faudrait maintenant les exploiter pour créer de la valeur au sein des sociétés linguistiques concernées. Tout ceci implique aussi d'identifier les problématiques locales, de trouver un lien possible entre ces problématiques et les ressources disponibles. C'est l'une des raisons principales de ce projet challenge.
 
-# Edition 2022: infos organisationelles 
+# Edition Février 20223: infos organisationelles 
 
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
 | Site web officiel    | https://sangkak-challenge-ia.ntealan.net                                                       | In progress |
+| Communauté Slack    | https://sangkak-challenge-ia.slack.com                                                      | OK |
 | Edition              | Février 2022                                                                                           | OK               |
 | Thématique           | Name Entities Recognition (NER)                                                                | OK               |
 | Données sources | MasakhaNER 2.0                                                                              | OK               |
