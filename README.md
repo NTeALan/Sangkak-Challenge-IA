@@ -2,16 +2,16 @@
 
 **SANGKAK-CHALLENGE-IA** est un challenge inter-datascientist et de chercheurs / ingénieurs en Traitement Automatique des Langues (TAL) visant à créer des solutions d'intélligence artificielle concrètes sur un jeu de données open-source en langues africaines.
 
-SANGKAK peut se traduire "Calculer en jouant" en yémba (langue parlé dans le département de la Menoua à l'Ouest du Cameroun).
+SANGKAK peut se traduire "Calculer en jouant" en yémba (langue parlée dans le département de la Menoua à l'Ouest du Cameroun).
 
 # Pourquoi créer ce challenge ?
 
 
 L'Afrique dispose d'un patrimoine culturel et linguistique sans précèdent. Ses 3000 langues sont encore parmi les langues les plus sous-dotées du monde et ce malgré toutes les initiatives créées ces dernières années sur le continent. Le défis est très grand et nous avons un avantage de taille aujourd'hui pour radicalement changer les choses: les technologies et applications de la data science.
 
-Des groupes de travail se sont constitués sur le continent ces dernières années et ils ont produit des quantités importantes de ressources structurées et non structurées pour les langues africaines. En plus des ressources lexicographiques de l'association NTeALan Social Network, on peut aussi citer celles du collectif Masahkane, de Google Research, de Meta et bien d'autres organismes et universités à travers le monde.
+Des groupes de travail se sont constitués sur le continent ces dernières années et ils ont produit des quantités importantes de ressources structurées et non structurées pour les langues africaines. En plus des ressources lexicographiques de l'association NTeALan Social Network, on peut aussi citer celles de l'INALCO, du collectif Masahkane, de Google Research, de Meta et bien d'autres organismes et universités à travers le monde.
 
-Quelques ressources existent et  bien même qu'une bonne partie de ces ressources soient privées, il faudrait maintenant les exploiter pour créer de la valeur au sein des sociétés linguistiques concernées. Tout ceci implique aussi d'identifier les problématiques locales, de trouver un lien possible entre ces problématiques et les ressources disponibles. C'est l'une des raisons principales de ce projet.
+Quelques ressources existent et bien même qu'une bonne partie de ces ressources soient privées, il faudrait maintenant les exploiter pour créer de la valeur au sein des sociétés linguistiques concernées. Tout ceci implique aussi d'identifier les problématiques locales, de trouver un lien possible entre ces problématiques et les ressources disponibles. C'est l'une des raisons principales de ce projet challenge.
 
 # Edition 2022: infos organisationelles 
 
@@ -24,7 +24,7 @@ Quelques ressources existent et  bien même qu'une bonne partie de ces ressource
 | Langues africaines     | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
 
 
-# Comment participer à cette session ?
+# Comment participer à cette session de février 2023 ?
 
 ## Contexte
 
