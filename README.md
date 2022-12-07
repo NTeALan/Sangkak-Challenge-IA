@@ -13,7 +13,7 @@ Des groupes de travail se sont constitués sur le continent ces dernières anné
 
 Quelques ressources existent et bien même qu'une bonne partie de ces ressources soient privées, il faudrait maintenant les exploiter pour créer de la valeur au sein des sociétés linguistiques concernées. Tout ceci implique aussi d'identifier les problématiques locales, de trouver un lien possible entre ces problématiques et les ressources disponibles. C'est l'une des raisons principales de ce projet challenge.
 
-# Edition Février 20223: infos organisationelles 
+# Edition Février 2023: infos organisationelles 
 
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
