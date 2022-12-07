@@ -69,12 +69,20 @@ Merci de respecter scrupleusement cette procédure afin que le comité d'organis
 
 ## Comité d'organisation
 
-Ce challenge est organisé par NTeALan Cameroun et NTeALan France en collaboration avec NTeALan Research and Developpement.
+Ce challenge est organisé par NTeALan Research and Developpement  en collaboration avec NTeALan Cameroun et NTeALan France.
 
 - Elvis MBONING (Lead Data scientist NLP/NLU/Chatbot)
-- Jean-Marc Bassahak (Lead Design Motion and web developer)
+- Jean-Marc Bassahak (Lead Motion Design and web developer)
 - Jules Assoumou (Vice rector of University of Ngaoundéré)
 - ...
 
 
 Pour toute question complémentaire, n'hésitez pas à contacter le comité d'organisation du challenge par [mail](sangkak-challenge-ia@ntealan.org) ou sur la [plateforme Slack](https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w).
+
+
+## Sponsors
+
+Ce challenge est sponsorisé par ...
+
+- ...
+- ...
