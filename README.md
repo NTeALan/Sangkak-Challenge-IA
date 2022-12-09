@@ -1,11 +1,17 @@
 # Sangkak-Challenge-IA
 
+| Translations | Status  |
+|---------|-------------|
+| [English](./translations/README-en.md) | OK |
+| -> ... | ... |
+
+---------------------------------------------------------------------
+
 **SANGKAK-CHALLENGE-IA** est un challenge inter-datascientist et de chercheurs / ingénieurs en Traitement Automatique des Langues (TAL) visant à créer des solutions d'intélligence artificielle concrètes sur un jeu de données open-source en langues africaines.
 
 SANGKAK peut se traduire "Calculer en jouant" en yémba (langue parlée dans le département de la Menoua à l'Ouest du Cameroun).
 
 # Pourquoi créer ce challenge ?
-
 
 L'Afrique dispose d'un patrimoine culturel et linguistique sans précèdent. Ses 3000 langues sont encore parmi les langues les plus sous-dotées du monde et ce malgré toutes les initiatives créées ces dernières années sur le continent. Le défis est très grand et nous avons un avantage de taille aujourd'hui pour radicalement changer les choses: les technologies et applications de la data science.
 
@@ -41,7 +47,7 @@ L'objectif de cette session est de challenger les participants sur la production
 - Comment mieux organiser les données pour ce type de tache en TAL ?
 - Le Ghomala peut-elle être traitée comme toutes les autres langues ? Doit-on parler d'une spécificité Ghomala en TAL ?
 - Quelle application pouvons-nous mettre en place pour aider les linguistes ou locuteurs ghomalaphones à mieux traiter ce problème ?
-- Quelle méthodologie serait mieux adapté pour traiter ce type de tache ?
+- Quelle méthodologie serait mieux adaptée pour traiter ce type de tache ?
 - Combinaison approche déterministe / probabiliste serait-elle un plus ?
 
 Dans tous les cas, c'est aux participants de définir leurs objectifs et approches pour proposer une solution de détection NER éfficace sur ces données.
@@ -62,11 +68,11 @@ Pour participer à cette session et challenger les autres participants:
 
 - Vous devez ensuite proposer votre solution en respectant cette structure. Vous êtes libre d'ajouter d'autres dossiers ou fichiers supplémentaires de votre choix. 
 
-- Renommez votre dossier par les initiales de votre projet (Exemple: **ENR**) et créez ensuite une branche avec les mêmes initiales, suivi d'un numéro de version (Exemple: **ENR-0.1**) et pushez là sur votre repertoire Github personnel. (Nous utiliserons ce lien comme sous-module git du dossier **propositions** dans ce répertoire officiel du challenge)
+- Renommez votre dossier par les initiales de votre projet (Exemple: **ENR**) et créez ensuite une branche avec les mêmes initiales, suivi d'un numéro de version (Exemple: **ENR-0.1**) et pushez là sur votre repertoire Github personnel. Nous utiliserons ce lien comme sous-module git du dossier **propositions** dans ce répertoire officiel du challenge.
 
-- Revenez sur ce repertoire et inscrivez votre proposition dans le fichier [PARTICIPANTS](./propositions/README.md) suivant les champs fournis. Faites ensuite un pull request pour que le comité d'organisation valide votre proposition et lie votre repertoire à ce repertoire officiel.
+- Revenez sur ce repertoire et forkez le. Inscrivez votre proposition dans le fichier [PARTICIPANTS](./propositions/README.md) suivant les champs fournis. Faites ensuite un pull request vers le repertoire officiel pour que le comité d'organisation valide votre proposition et lie votre repertoire à ce repertoire officiel.
 
-Merci de respecter scrupleusement cette procédure afin que le comité d'organisation puisse au mieux intégrer votre travail au répertoire officiel.
+Merci de respecter scrupuleusement cette procédure afin que le comité d'organisation puisse au mieux intégrer votre travail au répertoire officiel.
 
 ## Comité d'organisation
 
