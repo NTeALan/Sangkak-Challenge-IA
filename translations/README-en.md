@@ -1,7 +1,19 @@
-# Sangkak-Challenge-IA
+<p align="center">
+<br><br><br>
+<a href="https://sangkak-challenge-ia.ntealan.net"><img src="https://ntealan.org/wp-content/uploads/2019/12/cropped-Sans-titre-1-1-1.png.webp" alt="Sangkak Challenge IA " width="150px"></a>
+<br><br><br>
+</p>
+<p align="center">
+    <b>Sangkak-Challenge-IA</b>
+</p>
+<p align="center">
+    <span>Challengeons autrement les problématiques NLP du moment...</span>
+</p>
+
+--------------------------------------------------------------
 
 | Others languages    | Status      |
-|-----------------|-------------|
+|--------------------|-------------|
 | -> [Français](../README.md) | OK |
 | -> ... | ... |
 ---------------------------------------------------------------------
