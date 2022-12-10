@@ -59,23 +59,46 @@ Des groupes de travail se sont constitués sur le continent ces dernières anné
 
 Quelques ressources existent et bien même qu'une bonne partie de ces ressources soient privées, il faudrait maintenant les exploiter pour créer de la valeur au sein des sociétés linguistiques concernées. Tout ceci implique aussi d'identifier les problématiques locales, de trouver un lien possible entre ces problématiques et les ressources disponibles. C'est l'une des raisons principales de ce projet challenge.
 
-# Edition Février 2023: infos organisationelles 
+# Edition Février 2023
+
+## Infos organisationelles 
 
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
 | Site web officiel    | https://sangkak-challenge-ia.ntealan.net                                                       | In progress |
+| Langue de travail   | FR, EN | OK              |
 | Communauté Slack    | [![sangkak-challenge-ia](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://sangkak-challenge-ia.slack.com)                                                      | OK |
-| Edition              | Février 2022                                                                                           | OK               |
+| Edition              | Février 2023                                                                                           | OK               |
 | Thématique           | Name Entities Recognition (NER)                                                                | OK               |
 | Données sources | MasakhaNER 2.0                                                                              | OK               |
-| Langues africaines     | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
+| Langues africaines sources   | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
+| Workshop prévu  | Février 2023 | Not started              |
+| Publication prévue  | ...| Not started              |
 
+## Grandes étapes à retenir
+
+|    | Etapes                   | Status      |
+|----|--------------------------|-------------|
+| 1  | Définition du thème de la session | OK |
+| 2  | Rédaction des spécifications de la session | OK   |
+| 3  | Création du répertoire Github  de la session |  OK  |
+| 4  | Création du site web du challenge (1ère édition) |  In progress |
+| 5  | Ouverture des candidatures pour la session | Not started   |
+| 6  | Sélection des participants pour la session | Not started  |
+| 7  | Début du challenge chez les participants | Not started  |
+| 8  | Fin du challenge chez les participants  | Not started  |
+| 9  | Programmation du workshop | Not started  |
+| 10 | Début du workshop (débat sur les solutions proposées) | Not started  |
+| 11 | Fin du workshop (débat sur les solutions proposées) | Not started  |
+| 12 | Rédaction du bilan des travaux | Not started  |
+| 13 | Publication des travaux | Not started  |
+| 14 | Fin de la session du challenge | Not started  |
 
 # Comment participer à cette session de février 2023 ?
 
 ## Contexte
 
-Le collectif Masahkane, dans le cadre d'un projet commun financé par Lacuna Fund 2022, a créé et évalué des corpus annotés NER, appelé **African NER Datasets**, dans 20 langues d'Afrique subsaharienne. Les corpus NER produits sous le format `CoNLL-03` sont actuellement partagés en open accès sur leur [répertoire Github officiel](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  ou dans le dossier *data_source* de ce [répertoire Github](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/masakhane-ner/MasakhaNER2.0/data).
+Le collectif Masahkane, dans le cadre d'un projet commun financé par Lacuna Fund 2022, a créé et évalué des corpus annotés NER, appelé [**African NER Datasets**](https://github.com/masakhane-io/masakhane-ner/tree/9a4dc455ab7fa93024dff9bb595029c79abd3fb2/MasakhaNER2.0/data), dans 20 langues d'Afrique subsaharienne. Les corpus NER produits sous le format `CoNLL-03` sont actuellement partagés en open accès sur leur [répertoire Github officiel](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  ou dans le dossier *data_source* de ce [répertoire Github](/data_source/masakhane-ner).
 
 Les corpus produits ont été évalués sur des taches de NER en se focalisant sur les technologies d'apprentissage par transfert (Transformer) tels que AfriBERTA, AfroXLMR, XLM-R, mBERT, etc. Les résultats obtenus ont été détaillés dans un article accepté à la conférence [EMNLP 2022](https://2022.emnlp.org/) et accéssible à cette adresse https://arxiv.org/abs/2210.12391. A la lecture de ce document, nous constatons que le Ghomala, langue parlée à l'Ouest du Cameroun, a des résultats moins intéressants en terme de performance comparé aux autres langues évaluées.
 
@@ -125,7 +148,7 @@ Ce challenge est organisé par NTeALan Research and Developpement  en collaborat
 - ...
 
 
-Pour toute question complémentaire, n'hésitez pas à contacter le comité d'organisation du challenge par [mail](sangkak-challenge-ia@ntealan.org) ou sur la [plateforme Slack](https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w).
+Pour toute question complémentaire, n'hésitez pas à contacter le comité d'organisation du challenge par <a href="mailto:sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> ou sur la <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
 
 
 ## Sponsors
