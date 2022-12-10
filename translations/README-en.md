@@ -49,23 +49,46 @@ Working groups have sprung up on the continent in recent years and they have pro
 
 Some resources exist and even though a good part of these resources are private, they should now be exploited to create value within the linguistic companies concerned. All of this also involves identifying local issues, finding a possible link between these issues and available resources. This is one of the main reasons for this challenge project.
 
-# February 2023 edition: organizational information
+# February 2023 edition
+
+## Organizational information
 
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
 | Official website    | https://sangkak-challenge-ia.ntealan.net                                                       | In progress |
+| Work language   | FR, EN | OK              |
 | Slack Community    | [![sangkak-challenge-ia](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://sangkak-challenge-ia.slack.com)                                                    | OK |
-| Edition              | February 2022                                                                                           | OK               |
+| Edition              | February 2023                                                                                           | OK               |
 | Topic          | Name Entities Recognition (NER)                                                                | OK               |
 | Source data | MasakhaNER 2.0                                                                              | OK               |
 | African languages    | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
+| Workshop session  | February 2023 | Not started              |
+| Publication submitted  | ...| Not started              |
 
+## Grandes étapes à retenir (to translate)
 
-# How to participate in this February 2023 session?
+|    | Etapes                   | Status      |
+|----|--------------------------|-------------|
+| 1  | Définition du thème de la session | OK |
+| 2  | Rédaction des spécifications de la session | OK   |
+| 3  | Création du répertoire Github  de la session |  OK  |
+| 4  | Création du site web du challenge (1ère édition) |  In progress |
+| 5  | Ouverture des candidatures pour la session | Not started   |
+| 6  | Sélection des participants pour la session | Not started  |
+| 7  | Début du challenge chez les participants | Not started  |
+| 8  | Fin du challenge chez les participants  | Not started  |
+| 9  | Programmation du workshop | Not started  |
+| 10 | Début du workshop (débat sur les solutions proposées) | Not started  |
+| 11 | Fin du workshop (débat sur les solutions proposées) | Not started  |
+| 12 | Rédaction du bilan des travaux | Not started  |
+| 13 | Publication des travaux | Not started  |
+| 14 | Fin de la session du challenge | Not started  |
+
+# How to participate in this February 2023 session ?
 
 ## Context
 
-The Masahkane organization, as part of a joint Lacuna Fund 2022 project, created and evaluated NER-annotated corpora, called **African NER Datasets**, in 20 sub-Saharan African languages. NER corpora produced in the `CoNLL-03 format are currently shared in open access on their [official Github repository](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  or in the *data_source* folder of this [Github repository](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/masakhane-ner/MasakhaNER2.0/data).
+The Masahkane organization, as part of a joint Lacuna Fund 2022 project, created and evaluated NER-annotated corpora, called **African NER Datasets**, in 20 sub-Saharan African languages. NER corpora produced in the `CoNLL-03 format are currently shared in open access on their [official Github repository](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  or in the *data_source* folder of this [Github repository](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/).
 
 The produced corpora were evaluated on NER tasks focusing on transfer learning technologies (Transformer) such as AfriBERTA, AfroXLMR, XLM-R, mBERT, etc. The results obtained were detailed in an article accepted at the conference [EMNLP 2022](https://2022.emnlp.org/) and accessible at this address  https://arxiv.org/abs/2210.12391.  On reading this document, we find that Ghomala, a language spoken in western Cameroon, has less interesting results in terms of performance compared to the other languages evaluated.
 
@@ -86,7 +109,7 @@ In any case, it is up to the participants to define their objectives and approac
 
 To participate in this session and challenge other participants:
 
-- Each participant or group of participants will have to appropriate the corpus [**African NER Datasets**](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/masakhane-ner/MasakhaNER2.0/data) by cloning this git repository.
+- Each participant or group of participants will have to appropriate the corpus [**African NER Datasets**](https://github.com/masakhane-io/masakhane-ner/tree/9a4dc455ab7fa93024dff9bb595029c79abd3fb2/MasakhaNER2.0/data) by cloning this git repository.
 
 - You then had to create a repository in your own Github space following this structure:
 
@@ -115,7 +138,7 @@ This challenge is organized by NTeALan Research and Development in collaboration
 - ...
 
 
-For any additional questions, do not hesitate to contact the challenge's organizing committee by [mail](sangkak-challenge-ia@ntealan.org) or the [Slack platform](https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w).
+For any additional questions, do not hesitate to contact the challenge's organizing committee by <a href="sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> or the <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
 
 
 ## Sponsors
