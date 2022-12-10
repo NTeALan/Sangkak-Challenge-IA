@@ -138,7 +138,7 @@ This challenge is organized by NTeALan Research and Development in collaboration
 - ...
 
 
-For any additional questions, do not hesitate to contact the challenge's organizing committee by <a href="sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> or the <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
+For any additional questions, do not hesitate to contact the challenge's organizing committee by <a href="mailto:sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> or the <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
 
 
 ## Sponsors
