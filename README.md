@@ -1,14 +1,42 @@
 <p align="center">
     <br><br><br>
-    <a href="https://sangkak-challenge-ia.ntealan.net"><img src="https://ntealan.org/wp-content/uploads/2019/12/cropped-Sans-titre-1-1-1.png.webp" alt="Sangkak Challenge IA " width="150px"></a>
+    <a href="https://sangkak-challenge-ia.ntealan.net"><img src="https://ntealan.org/wp-content/uploads/2019/12/cropped-Sans-titre-1-1-1.png.webp" alt="Sangkak Challenge IA" width="150px"/></a>
     <br><br><br>
 </p>
 <p align="center">
-    <b>Sangkak-Challenge-IA</b>
+    <b style="color:#D84727; font-size:30px">Sangkak-Challenge-IA</b>
 </p>
 <p align="center">
-    <span>Challengeons autrement les problématiques NLP du moment...</span>
+    <span>Challengeons autrement les problématiques NLP du vieux continent...</span>
 </p>
+
+<p align="center">
+    <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="creativecommons" width="110px"></a> 
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT" width="80px"></a>       
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="MIT"/> 
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+    <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow"/>     
+    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+    <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib"/>   
+    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch"/>
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>      
+    <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>            
+</p>
+
+<!-- ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) -->
+
 
 --------------------------------------------------------------
 
@@ -36,7 +64,7 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
 | Site web officiel    | https://sangkak-challenge-ia.ntealan.net                                                       | In progress |
-| Communauté Slack    | https://sangkak-challenge-ia.slack.com                                                      | OK |
+| Communauté Slack    | [![sangkak-challenge-ia](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://sangkak-challenge-ia.slack.com)                                                      | OK |
 | Edition              | Février 2022                                                                                           | OK               |
 | Thématique           | Name Entities Recognition (NER)                                                                | OK               |
 | Données sources | MasakhaNER 2.0                                                                              | OK               |
@@ -47,7 +75,7 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 
 ## Contexte
 
-Le collectif Masahkane, dans le cadre d'un projet commun Lacuna Fund 2022, a créé et évalué des corpus annotés NER, appelé **African NER Datasets**, dans 20 langues d'Afrique subsaharienne. Les corpus NER produits sous le format CoNLL-03 sont actuellement partagés en open accès sur leur [répertoire Github officiel](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  ou dans le dossier *data_source* de ce [répertoire Github](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/masakhane-ner/MasakhaNER2.0/data).
+Le collectif Masahkane, dans le cadre d'un projet commun financé par Lacuna Fund 2022, a créé et évalué des corpus annotés NER, appelé **African NER Datasets**, dans 20 langues d'Afrique subsaharienne. Les corpus NER produits sous le format `CoNLL-03` sont actuellement partagés en open accès sur leur [répertoire Github officiel](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  ou dans le dossier *data_source* de ce [répertoire Github](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/masakhane-ner/MasakhaNER2.0/data).
 
 Les corpus produits ont été évalués sur des taches de NER en se focalisant sur les technologies d'apprentissage par transfert (Transformer) tels que AfriBERTA, AfroXLMR, XLM-R, mBERT, etc. Les résultats obtenus ont été détaillés dans un article accepté à la conférence [EMNLP 2022](https://2022.emnlp.org/) et accéssible à cette adresse https://arxiv.org/abs/2210.12391. A la lecture de ce document, nous constatons que le Ghomala, langue parlée à l'Ouest du Cameroun, a des résultats moins intéressants en terme de performance comparé aux autres langues évaluées.
 
@@ -60,7 +88,7 @@ L'objectif de cette session est de challenger les participants sur la production
 - Le Ghomala peut-elle être traitée comme toutes les autres langues ? Doit-on parler d'une spécificité Ghomala en TAL ?
 - Quelle application pouvons-nous mettre en place pour aider les linguistes ou locuteurs ghomalaphones à mieux traiter ce problème ?
 - Quelle méthodologie serait mieux adaptée pour traiter ce type de tache ?
-- Combinaison approche déterministe / probabiliste serait-elle un plus ?
+- Une combinaison d'approche déterministe / probabiliste apporterait-elle un plus ?
 
 Dans tous les cas, c'est aux participants de définir leurs objectifs et approches pour proposer une solution de détection NER éfficace sur ces données.
 
@@ -93,6 +121,7 @@ Ce challenge est organisé par NTeALan Research and Developpement  en collaborat
 - Elvis MBONING (Lead Data scientist NLP/NLU/Chatbot)
 - Jean-Marc Bassahak (Lead Motion Design and web developer)
 - Jules Assoumou (Vice rector of University of Ngaoundéré)
+- Tatiana Moteu (Data Scientist / PhD Student)
 - ...
 
 
