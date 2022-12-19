@@ -1,10 +1,10 @@
 <p align="center">
 <br><br><br>
 <a href="https://sangkak-challenge-ia.ntealan.net"><img src="https://ntealan.org/wp-content/uploads/2019/12/cropped-Sans-titre-1-1-1.png.webp" alt="Sangkak Challenge IA " width="150px"></a>
-<br><br><br>
+<br><br>    
 </p>
 <p align="center">
-    <b style="color:#D84727; font-size:30px">Sangkak-Challenge-IA</b>
+    <b style="color:#D84727; font-size:40px;">Sangkak-Challenge-IA</b>
 </p>
 <p align="center">
     <span>Let's challenge the NLP issues of the old continent in a different way...</span>
@@ -121,7 +121,7 @@ To participate in this session and challenge other participants:
 
 - You must then propose your solution by respecting this structure. You are free to add other additional folders or files of your choice.
 
-- Rename your folder with the initials of your project (Example: **ENR**) and then create a branch with the same initials, followed by a version number (Example: **ENR-0.1**)  and push it to your personal Github repository. (We will use this link as a git submodule of the **proposals** folder in this official challenge repository)
+- Rename your folder with the initials of the challenge followed by that of your project (Example: **SCIA-ENR**: ENR being the initials of your project) and then create a branch indicating a version number (Example: **0.1**)  and push it to your personal Github repository. You can also fork this [sample directory](https://github.com/NTeALan/Sangkak-sample-proposition) which gives you a preview of this structure. (We will use this link as a git submodule of the **proposals** folder in this official challenge repository)
 
 - Go back to this repository and enter your proposal in the file [PARTICIPANTS](./proposals/README.md) according to the fields provided. Then make a pull request so that the organizing committee validates your proposal and links your repository to this official repository.
 

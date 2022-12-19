@@ -104,7 +104,7 @@ Les corpus produits ont été évalués sur des taches de NER en se focalisant s
 
 ## Objectifs
 
-L'objectif de cette session est de challenger les participants sur la production d'algorithmes d'IA plus performants pour détecter les entités nommés dans la langue Ghomala en prenant appui sur les travaux réalisés par le collectif Masahkane. Ces questions peuvent vous orienter dans le choix de votre thématique:
+L'objectif de cette session est de challenger les participants sur la production d'algorithmes d'IA les plus performants pour détecter les entités nommés dans la langue Ghomala en prenant appui sur les travaux réalisés par le collectif Masahkane. Ces questions peuvent vous orienter dans le choix de votre thématique:
 
 - Quel algorithme d'IA serait plus approprié pour détecter les entités nommés en Ghomala et par extension aux langues bantu ?
 - Comment mieux organiser les données pour ce type de tache en TAL ?
@@ -131,7 +131,7 @@ Pour participer à cette session et challenger les autres participants:
 
 - Vous devez ensuite proposer votre solution en respectant cette structure. Vous êtes libre d'ajouter d'autres dossiers ou fichiers supplémentaires de votre choix. 
 
-- Renommez votre dossier par les initiales de votre projet (Exemple: **ENR**) et créez ensuite une branche avec les mêmes initiales, suivi d'un numéro de version (Exemple: **ENR-0.1**) et pushez là sur votre repertoire Github personnel. Nous utiliserons ce lien comme sous-module git du dossier **propositions** dans ce répertoire officiel du challenge.
+- Renommez votre dossier par les initiales du challenge suivi de celui de votre projet (Exemple: **SCIA-ENR**: ENR étant les initiales de votre projet) et créez ensuite une branche indiquant un numéro de version (Exemple: **0.1**) de votre projet et pushez là sur votre repertoire Github personnel. Vous pouvez aussi forker ce [repertoire exemple](https://github.com/NTeALan/Sangkak-sample-proposition) qui vous donne un aperçu de cette structure. Nous utiliserons ce lien comme sous-module git du dossier **propositions** dans ce répertoire officiel du challenge.
 
 - Revenez sur ce repertoire et forkez le. Inscrivez votre proposition dans le fichier [PARTICIPANTS](./propositions/README.md) suivant les champs fournis. Faites ensuite un pull request vers le repertoire officiel pour que le comité d'organisation valide votre proposition et lie votre repertoire à ce repertoire officiel.
 
