@@ -82,10 +82,10 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | 1  | Définition du thème de la session | OK |
 | 2  | Rédaction des spécifications de la session | OK   |
 | 3  | Création du répertoire Github  de la session |  OK  |
-| 4  | Création du site web du challenge (1ère édition) |  In progress |
-| 5  | Ouverture des candidatures pour la session | Not started   |
-| 6  | Sélection des participants pour la session | Not started  |
-| 7  | Début du challenge chez les participants | Not started  |
+| 4  | Création du site web du challenge (1ère édition) |  OK |
+| 5  | Ouverture des candidatures pour la session | OK   |
+| 6  | Sélection des participants pour la session | OK  |
+| 7  | Début du challenge chez les participants | OK  |
 | 8  | Fin du challenge chez les participants  | Not started  |
 | 9  | Programmation du workshop | Not started  |
 | 10 | Début du workshop (débat sur les solutions proposées) | Not started  |
@@ -145,7 +145,7 @@ Ce challenge est organisé par NTeALan Research and Developpement  en collaborat
 - Jean-Marc Bassahak (Lead Motion Design and web developer)
 - Jules Assoumou (Vice rector of University of Ngaoundéré)
 - Tatiana Moteu (Data Scientist / PhD Student)
-- ...
+- All research team of NTeALan Research and Developpment
 
 
 Pour toute question complémentaire, n'hésitez pas à contacter le comité d'organisation du challenge par <a href="mailto:sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> ou sur la <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
