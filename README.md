@@ -72,7 +72,7 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | Thématique           | Name Entities Recognition (NER)                                                                | OK               |
 | Données sources | MasakhaNER 2.0                                                                              | OK               |
 | Langues africaines sources   | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
-| Workshop prévu  | Février 2023 | Not started              |
+| Workshop prévu  | Mars 2023 |             |
 | Publication prévue  | ...| Not started              |
 
 ## Grandes étapes à retenir
@@ -86,11 +86,11 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | 5  | Ouverture des candidatures pour la session | OK   |
 | 6  | Sélection des participants pour la session | OK  |
 | 7  | Début du challenge chez les participants | OK  |
-| 8  | Fin du challenge chez les participants  | Not started  |
-| 9  | Programmation du workshop | Not started  |
-| 10 | Début du workshop (débat sur les solutions proposées) | Not started  |
-| 11 | Fin du workshop (débat sur les solutions proposées) | Not started  |
-| 12 | Rédaction du bilan des travaux | Not started  |
+| 8  | Fin du challenge chez les participants  | OK  |
+| 9  | Programmation du workshop | OK |
+| 10 | Début du workshop (débat sur les solutions proposées) | OK |
+| 11 | Fin du workshop (débat sur les solutions proposées) | OK |
+| 12 | Rédaction du bilan des travaux | OK |
 | 13 | Publication des travaux | Not started  |
 | 14 | Fin de la session du challenge | Not started  |
 
