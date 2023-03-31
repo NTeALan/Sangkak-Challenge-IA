@@ -6,7 +6,8 @@ Ce fichier permet de lister tous les participants de la session, ainsi que le d√
 
 | **Nom du participant(s)** | **Titre de la proposition** | **Description de la proposition** | **Lien Github** | **Status**  |
 |---------------------------|-----------------------------|-----------------------------------|-----------------|-------------|
-| Elvis MBONING             |                             |                                   |                 | In progress |
+| Elvis MBONING      
+| Tatiana Moteu             | Simple algorithmes de ML    | Perceptron, NB, SGD, Passive Aggressive classifier  | In progress |
 |                           |                             |                                   |                 |             |
 |                           |                             |                                   |                 |             |
 |                           |                             |                                   |                 |             |
