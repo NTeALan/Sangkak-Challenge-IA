@@ -1,7 +1,3 @@
 [submodule "data_source/masakhane-ner"]
 	path = data_source/masakhane-ner
 	url = https://github.com/masakhane-io/masakhane-ner
-[submodule "SCIA-CRF_LF"]
-	path = SCIA-CRF_LF
-	url = https://github.com/Levis0045/SCIA-CRF_LF
-	branch = 0.1
