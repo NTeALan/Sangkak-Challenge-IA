@@ -65,15 +65,15 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 
 |                      |                                                                                                | Status           |
 |----------------------|------------------------------------------------------------------------------------------------|------------------|
-| Site web officiel    | https://sangkak-challenge-ia.ntealan.net                                                       | In progress |
+| Site web officiel    | https://sangkak-challenge-ia.ntealan.net                                                       | OK |
 | Langue de travail   | FR, EN | OK              |
 | Communauté Slack    | [![sangkak-challenge-ia](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://sangkak-challenge-ia.slack.com)                                                      | OK |
 | Edition              | Février 2023                                                                                           | OK               |
 | Thématique           | Name Entities Recognition (NER)                                                                | OK               |
 | Données sources | MasakhaNER 2.0                                                                              | OK               |
 | Langues africaines sources   | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
-| Workshop prévu  | Mars 2023 |             |
-| Publication prévue  | ...| Not started              |
+| Workshop prévu  | 04 Mars 2023 | OK              |
+| Publication prévue  | Article soumis à TALN | In progress              |
 
 ## Grandes étapes à retenir
 
@@ -91,8 +91,8 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | 10 | Début du workshop (débat sur les solutions proposées) | OK |
 | 11 | Fin du workshop (débat sur les solutions proposées) | OK |
 | 12 | Rédaction du bilan des travaux | OK |
-| 13 | Publication des travaux | Not started  |
-| 14 | Fin de la session du challenge | Not started  |
+| 13 | Publication des travaux | In progress  |
+| 14 | Fin de la session du challenge | OK  |
 
 # Comment participer à cette session de février 2023 ?
 
@@ -150,10 +150,26 @@ Ce challenge est organisé par NTeALan Research and Developpement  en collaborat
 
 Pour toute question complémentaire, n'hésitez pas à contacter le comité d'organisation du challenge par <a href="mailto:sangkak-challenge-ia@ntealan.org" target="_blank">Mail</a> ou sur la <a href="https://join.slack.com/t/sangkak-challenge-ia/shared_invite/zt-1kxxxu4af-lQk~Kn6hmVI_OVNk6lqk~w" target="_blank">Slack platform</a>.
 
+## Participants de la session 
+
+<p align="center">
+    <img src="images/chellengers_02-2023.png" alt="chellengers session 02 2023" width="510px">
+</p>
+
+Retrouvez l'ensemble des propositions dans le répertoire [propositions](https://github.com/NTeALan/Sangkak-Challenge-IA/tree/fev-2023/propositions).
+
+## Gagnant de la session 
+
+<p align="center">
+    <img src="images/winner_session_02_2023.jpeg" alt="winner session 02 2023" width="510px">
+</p>
+
+
+
 
 ## Sponsors
 
-Ce challenge est sponsorisé par ...
+Ce challenge est sponsorisé par:
 
-- ...
-- ...
+- l'équipe ERTIM de l'INALCO
+- l'association NTeALan Social Network
