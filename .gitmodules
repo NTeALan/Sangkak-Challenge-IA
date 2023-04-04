@@ -5,3 +5,6 @@
 	path = propositions/SCIA-CRF_LF
 	url = https://github.com/Levis0045/SCIA-CRF_LF
 	branch = 0.1
+[submodule "propositions/NER-Sangkak-challenge"]
+	path = propositions/NER-Sangkak-challenge
+	url = https://github.com/abakamousa/NER-Sangkak-challenge
