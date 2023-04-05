@@ -1,10 +1,15 @@
 [submodule "data_source/masakhane-ner"]
 	path = data_source/masakhane-ner
 	url = https://github.com/masakhane-io/masakhane-ner
+[submodule "propositions/SCIA-MLLM"]
+	path = propositions/SCIA-MLLM
+	url = https://github.com/abakamousa/NER-Sangkak-challenge
+[submodule "propositions/SCIA-TRANSF"]
+	path = propositions/SCIA-TRANSF
+	url = https://github.com/leriky/SCIA-TRANSF
+[submodule "propositions/SCIA-NER_SML"]
+	path = propositions/SCIA-NER_SML
+	url = https://github.com/TatianaMoteuN/SCIA-NER_SML
 [submodule "propositions/SCIA-CRF_LF"]
 	path = propositions/SCIA-CRF_LF
 	url = https://github.com/Levis0045/SCIA-CRF_LF
-	branch = 0.1
-[submodule "propositions/NER-Sangkak-challenge"]
-	path = propositions/NER-Sangkak-challenge
-	url = https://github.com/abakamousa/NER-Sangkak-challenge
