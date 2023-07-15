@@ -10,8 +10,7 @@
     <span>Let's challenge the NLP issues of the old continent in a different way...</span>
 </p>
 <p align="center">
-    <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="creativecommons" width="110px"></a> 
-    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT" width="80px"></a>       
+    <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="creativecommons" width="110px"></a>      
 </p>
 
 <p align="center">
@@ -51,6 +50,8 @@ Some resources exist and even though a good part of these resources are private,
 
 # February 2023 edition
 
+...
+
 ## Organizational information
 
 |                      |                                                                                                | Status           |
@@ -62,7 +63,7 @@ Some resources exist and even though a good part of these resources are private,
 | Topic          | Name Entities Recognition (NER)                                                                | OK               |
 | Source data | MasakhaNER 2.0                                                                              | OK               |
 | African languages    | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
-| Workshop session  | 04 March 2023 | OK               |
+| Workshop session  | 04 September 2023 | OK               |
 | Publication submitted  | ...| In progress              |
 
 ## Important steps to remember
@@ -86,30 +87,21 @@ Some resources exist and even though a good part of these resources are private,
 
 # How to participate in this February 2023 session ?
 
+...
+
 ## Context
 
-The Masahkane organization, as part of a joint Lacuna Fund 2022 project, created and evaluated NER-annotated corpora, called **African NER Datasets**, in 20 sub-Saharan African languages. NER corpora produced in the `CoNLL-03 format are currently shared in open access on their [official Github repository](https://github.com/masakhane-io/masakhane-ner/tree/main/MasakhaNER2.0/data)  or in the *data_source* folder of this [Github repository](https://github.com/NTeALan/Sangkak-Challenge-IA/data_source/).
-
-The produced corpora were evaluated on NER tasks focusing on transfer learning technologies (Transformer) such as AfriBERTA, AfroXLMR, XLM-R, mBERT, etc. The results obtained were detailed in an article accepted at the conference [EMNLP 2022](https://2022.emnlp.org/) and accessible at this address https://arxiv.org/abs/2210.12391.  On reading this document, we find that Ghomala, a language spoken in western Cameroon, has less interesting results in terms of performance compared to the other languages evaluated.
+...
 
 ## Goals
 
-The goal of this session is to challenge participants on the production of more efficient AI algorithms to detect named entities in the Ghomala language based on the work carried out by the Masahkane organization. These questions can guide you in choosing your theme:
-
-- Which AI algorithm would be more appropriate to detect named entities in Ghomala and by extension to Bantu languages?
-- How to better organize the data for this type of NLP task?
-- Can Ghomala be treated like all other languages? Should we speak of a Ghomala specificity in NLP?
-- What application can we put in place to help linguists or Ghomalaphone speakers to better deal with this problem?
-- What methodology would be best suited to treat this type of stain?
-- Would a combination of deterministic / probabilistic approach be a plus?
-
-In any case, it is up to the participants to define their objectives and approaches to propose an effective NER detection solution on these data.
+...
 
 ## Participate in the February 2023 session
 
 To participate in this session and challenge other participants:
 
-- Each participant or group of participants will have to appropriate the corpus [**African NER Datasets**](https://github.com/masakhane-io/masakhane-ner/tree/9a4dc455ab7fa93024dff9bb595029c79abd3fb2/MasakhaNER2.0/data) by cloning this git repository.
+- Each participant or group of participants will have to appropriate the corpus **African POS Datasets** by cloning this git repository.
 
 - You then had to create a repository in your own Github space following this structure:
 
@@ -143,17 +135,12 @@ For any additional questions, do not hesitate to contact the challenge's organiz
 
 ## Participants of the session 
 
-<p align="center">
-    <img src="../images/chellengers_02-2023.png" alt="chellengers session 02 2023" width="510px">
-</p>
+...
 
-Find all the submitted propositions in the folder [propositions](https://github.com/NTeALan/Sangkak-Challenge-IA/tree/fev-2023/propositions).
 
 ## Winner of the session 
 
-<p align="center">
-    <img src="../images/winner_session_02_2023.jpeg" alt="winner session 02 2023" width="510px">
-</p>
+...
 
 
 ## Sponsors

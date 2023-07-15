@@ -1,6 +1,6 @@
 # PHASES DU CHALLENGE
 
-Ce challenge sera organisé tous les \textbf{6 mois} suivant les étapes suivantes: 
+Ce challenge sera organisé tous les **6 mois** suivant les étapes suivantes: 
 
 ## 1- Préparation (3 semaines)
 
