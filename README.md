@@ -72,7 +72,7 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | Thématique           | Part Of Speech Tagging (POS)                                                                | OK               |
 | Données sources | MasakhaPOS                                                                               | OK               |
 | Langues africaines sources   | bbj, bam, ewe, fon, hau, ibo, kin, lug, mos, nya, pcm , sna, swa, tsn, twi, wol, xho, yor, zul | OK               |
-| Workshop prévu  | 04 septembre 2023 | Not started              |
+| Workshop prévu  | 30 septembre 2023 | Not started              |
 | Publication prévue  |  | Not started             |
 
 ## Grandes étapes à retenir
