@@ -83,11 +83,11 @@ Quelques ressources existent et bien même qu'une bonne partie de ces ressources
 | 2  | Rédaction des spécifications de la session | OK   |
 | 3  | Création du répertoire Github  de la session |  OK  |
 | 4  | Création du site web du challenge (2ère édition) |  OK |
-| 5  | Ouverture des candidatures pour la session | In progress   |
-| 6  | Sélection des participants pour la session | In progress  |
+| 5  | Ouverture des candidatures pour la session | OK   |
+| 6  | Sélection des participants pour la session | OK  |
 | 7  | Début du challenge chez les participants | In progress  |
 | 8  | Fin du challenge chez les participants  | Not started  |
-| 9  | Programmation du workshop | Not started |
+| 9  | Programmation du workshop | OK |
 | 10 | Début du workshop (débat sur les solutions proposées) | Not started |
 | 11 | Fin du workshop (débat sur les solutions proposées) | Not started |
 | 12 | Rédaction du bilan des travaux | Not started |
