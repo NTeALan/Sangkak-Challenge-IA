@@ -3,8 +3,8 @@ import os
 def get_pos_tags():
     return ["X", "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"]
 
-ID2LABEL = {str(i): v for i, v in enumerate(get_pos_tags())}
-LABEL2ID = {v: str(i) for i, v in enumerate(get_pos_tags())}
+ID2LABEL = {i: v for i, v in enumerate(get_pos_tags())}
+LABEL2ID = {v: i for i, v in enumerate(get_pos_tags())}
 
 def load_data(lang, split, data_dir):
     """load a dataset split
