@@ -2,7 +2,9 @@ from transformers import AutoTokenizer, BertConfig, BertForTokenClassification, 
 from datasets import Dataset, DatasetDict
 from utils import get_tokenizer_training_corpus, load_data, LABEL2ID, ID2LABEL
 import evaluate
+import torch
 import numpy as np
+import pandas as pd
 
 class AfrikaPOS:
     def __init__(self, data_dir, num_hiddens, num_attentions, base_model = 'bert-base-uncased', vocab_size = None) -> None:
@@ -65,20 +67,27 @@ class AfrikaPOS:
 
         tokenized_inputs["labels"] = labels
         return tokenized_inputs
+        
+    def get_true_labels(self, predictions_ids, labels_ids):
+        """Returns true labels, not their ids"""
 
+        true_predictions = [
+            [ID2LABEL[p.item()] for (p, l) in zip(prediction, label) if l != -100]
+            for prediction, label in zip(predictions_ids, labels_ids)
+        ]
+        true_labels = [
+            [ID2LABEL[l.item()] for (p, l) in zip(prediction, label) if l != -100]
+            for prediction, label in zip(predictions_ids, labels_ids)
+        ]
+
+        return true_predictions, true_labels
+    
     def compute_metrics(self, p):
         """Most of the credits go to HuggingFace https://huggingface.co/docs/transformers/v4.33.2/en/tasks/token_classification#preprocess"""
         predictions, labels = p
         predictions = np.argmax(predictions, axis=2)
 
-        true_predictions = [
-            [ID2LABEL[p] for (p, l) in zip(prediction, label) if l != -100]
-            for prediction, label in zip(predictions, labels)
-        ]
-        true_labels = [
-            [ID2LABEL[l] for (p, l) in zip(prediction, label) if l != -100]
-            for prediction, label in zip(predictions, labels)
-        ]
+        true_predictions, true_labels = self.get_true_labels(predictions, labels)
 
         results = self.eval.compute(predictions=true_predictions, references=true_labels)
 
@@ -91,18 +100,36 @@ class AfrikaPOS:
             # "macro-f1": results["macro avg"]["f1-score"],
             "accuracy": results["accuracy"],
         }
+
+    def evaluate_on_test(self):
+        # padd test data using DataCollator
+        padded_data = self.data_collator(self.dataset['test'].select_columns(['input_ids', 'labels']))
+        inputs, attention_mask = padded_data['input_ids'].to(self.model.device), padded_data['attention_mask'].to(self.model.device)
+
+        labels = padded_data['labels']
+
+        # Foward pass
+        predictions = self.model(inputs, attention_mask=attention_mask).logits
+        predictions = torch.argmax(predictions, axis=2)
+
+        # Convert label ids to true labels
+        true_predictions, true_labels = self.get_true_labels(predictions, labels)
+
+        res = self.eval.compute(predictions=true_predictions, references=true_labels)
+        return pd.DataFrame(res)
     
-    def train_model(self, output_dir):
+    def train_model(self, output_dir, learning_rate=2e-5, num_train_epochs=2, weight_decay=0.01, batch_size=16):
         training_args = TrainingArguments(
             output_dir=output_dir,
-            learning_rate=2e-5,
-            per_device_train_batch_size=16,
-            per_device_eval_batch_size=16,
-            num_train_epochs=2,
-            weight_decay=0.01,
+            learning_rate=learning_rate,
+            per_device_train_batch_size=batch_size,
+            per_device_eval_batch_size=batch_size,
+            num_train_epochs=num_train_epochs,
+            weight_decay=weight_decay,
             evaluation_strategy="epoch",
             save_strategy="epoch",
-            load_best_model_at_end=True
+            load_best_model_at_end=True,
+            report_to='tensorboard'
         )
 
         trainer = Trainer(
