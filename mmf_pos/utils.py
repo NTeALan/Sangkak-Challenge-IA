@@ -6,12 +6,11 @@ def get_pos_tags():
 ID2LABEL = {i: v for i, v in enumerate(get_pos_tags())}
 LABEL2ID = {v: i for i, v in enumerate(get_pos_tags())}
 
-def load_data(lang, split, data_dir):
+def load_data(split, data_dir):
     """load a dataset split
 
     Arguments
     --------
-    lang (str): language code
     split (str): the split to load. train, dev or test
     data_dir (str): the folder containing the data
 
@@ -19,7 +18,7 @@ def load_data(lang, split, data_dir):
     -------
     a generator of dict whose keys are `tokens` and `pos_tags`
     """
-    fname = os.path.join(data_dir, lang, f"{split}.txt")
+    fname = os.path.join(data_dir, f"{split}.txt")
     with open(fname, "r") as f:
         tokens, tags = [], []
         for line in f:
@@ -35,12 +34,11 @@ def load_data(lang, split, data_dir):
                 tokens.append(splits[0])
                 tags.append(splits[1])
 
-def get_tokenizer_training_corpus(lang, data_dir):
+def get_tokenizer_training_corpus(data_dir):
     """load a dataset split
 
     Arguments
     --------
-    lang (str): language code
     data_dir (str): the folder containing the data
 
     Returns
@@ -49,6 +47,6 @@ def get_tokenizer_training_corpus(lang, data_dir):
     """
 
     return (
-        d["tokens"] for d in load_data(lang, "train", data_dir)
+        d["tokens"] for d in load_data("train", data_dir)
     )
 
