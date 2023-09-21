@@ -102,18 +102,14 @@ class AfrikaPOS:
         }
 
     def evaluate_on_test(self):
-        # padd test data using DataCollator
-        padded_data = self.data_collator(self.dataset['test'].select_columns(['input_ids', 'labels']))
-        inputs, attention_mask = padded_data['input_ids'].to(self.model.device), padded_data['attention_mask'].to(self.model.device)
+        assert hasattr(self, 'trainer'), "train the model first"
 
-        labels = padded_data['labels']
-
-        # Foward pass
-        predictions = self.model(inputs, attention_mask=attention_mask).logits
-        predictions = torch.argmax(predictions, axis=2)
+        # # Foward pass
+        out = self.trainer.predict(self.dataset['test'])
+        predictions = np.argmax(out.predictions, axis=-1)
 
         # Convert label ids to true labels
-        true_predictions, true_labels = self.get_true_labels(predictions, labels)
+        true_predictions, true_labels = self.get_true_labels(predictions, out.label_ids)
 
         res = self.eval.compute(predictions=true_predictions, references=true_labels)
         return pd.DataFrame(res)
@@ -129,10 +125,11 @@ class AfrikaPOS:
             evaluation_strategy="epoch",
             save_strategy="epoch",
             load_best_model_at_end=True,
-            report_to='tensorboard'
+            report_to='tensorboard',
+            save_total_limit=1
         )
 
-        trainer = Trainer(
+        self.trainer = Trainer(
             model=self.model,
             args=training_args,
             train_dataset=self.dataset["train"],
@@ -142,5 +139,5 @@ class AfrikaPOS:
             compute_metrics=self.compute_metrics,
         )
 
-        trainer.train()
+        self.trainer.train()
                     
