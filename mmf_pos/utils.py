@@ -1,4 +1,5 @@
 import os 
+import itertools
 
 def get_pos_tags():
     return ["X", "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB"]
@@ -46,7 +47,7 @@ def get_tokenizer_training_corpus(data_dir):
     a generator of list of str
     """
 
-    return (
-        d["tokens"] for d in load_data("train", data_dir)
+    return itertools.chain(
+        *((d["tokens"] for d in load_data("train", data_dir)), (d["tokens"] for d in load_data("dev", data_dir)))
     )
 
