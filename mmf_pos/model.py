@@ -140,4 +140,21 @@ class AfrikaPOS:
         )
 
         self.trainer.train()
-                    
+
+    def predict(self, text):
+        tokenized_text = self.tokenizer(text, return_tensors='pt').to(self.model.device)
+        
+        self.model.eval()
+        with torch.no_grad():
+            logits = self.model(tokenized_text['input_ids'], attention_mask=tokenized_text['attention_mask']).logits
+        predictions = torch.argmax(logits, axis=-1).cpu().numpy().ravel()
+        
+        prev_id = None
+        pos_tags = []
+        for curr_id in tokenized_text.word_ids():
+            if curr_id == None or curr_id == prev_id:
+                continue
+            pos_tags.append(ID2LABEL[predictions[curr_id]])
+            prev_id = curr_id
+
+        return pos_tags                    
