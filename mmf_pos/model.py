@@ -1,5 +1,5 @@
 from transformers import AutoTokenizer, BertConfig, BertForTokenClassification, DataCollatorForTokenClassification, Trainer, TrainingArguments
-from datasets import Dataset, DatasetDict
+from datasets import Dataset, DatasetDict, concatenate_datasets
 from utils import get_tokenizer_training_corpus, load_data, LABEL2ID, ID2LABEL
 import evaluate
 import torch
@@ -8,7 +8,7 @@ import pandas as pd
 
 class AfrikaPOS:
     def __init__(self, data_dir, num_hiddens, num_attentions, base_model = 'bert-base-uncased', vocab_size = None) -> None:
-        self.data_dir = data_dir
+        self.data_dir = data_dir # Could be a list of datadir for using multiple datasets
         self.base_model = base_model
         self.vocab_size = vocab_size
         self.num_hiddens = num_hiddens
@@ -40,9 +40,16 @@ class AfrikaPOS:
         self.tokenizer = tokenizer
     
     def load_dataset(self):
-        ds = {split: Dataset.from_generator(load_data, gen_kwargs={'split': split, 'data_dir': self.data_dir}) for split in ['train', 'test', 'dev']}
-        ds = DatasetDict(ds)
-        ds = ds.map(lambda x: {'pos_tags_id': list(map(lambda tag: LABEL2ID[tag], x['pos_tags']))})
+        def load_one_dataset(data_dir):
+            ds = {split: Dataset.from_generator(load_data, gen_kwargs={'split': split, 'data_dir': data_dir}) for split in ['train', 'test', 'dev']}
+            ds = DatasetDict(ds)
+            ds = ds.map(lambda x: {'pos_tags_id': list(map(lambda tag: LABEL2ID[tag], x['pos_tags']))})
+            return ds
+        
+        if isinstance(self.data_dir, list):
+            ds = concatenate_datasets([load_one_dataset(dd) for dd in self.data_dir])
+        else:
+            ds = load_one_dataset(self.data_dir)
         self.dataset = ds 
     
     def tokenize_and_align_labels(self, examples):
@@ -114,7 +121,15 @@ class AfrikaPOS:
         res = self.eval.compute(predictions=true_predictions, references=true_labels)
         return pd.DataFrame(res)
     
-    def train_model(self, output_dir, learning_rate=2e-5, num_train_epochs=2, weight_decay=0.01, batch_size=16):
+    def train_model(self, output_dir, learning_rate=2e-5, num_train_epochs=2, weight_decay=0.01, batch_size=16, validate_on_test = False):
+        
+        if validate_on_test:
+            train_ds = concatenate_datasets([self.dataset['train'], self.dataset['dev']])
+            val_ds = self.dataset['test']
+        else:
+            train_ds = self.dataset['train']
+            val_ds = self.dataset['dev']
+
         training_args = TrainingArguments(
             output_dir=output_dir,
             learning_rate=learning_rate,
@@ -132,8 +147,8 @@ class AfrikaPOS:
         self.trainer = Trainer(
             model=self.model,
             args=training_args,
-            train_dataset=self.dataset["train"],
-            eval_dataset=self.dataset["dev"],
+            train_dataset=train_ds,
+            eval_dataset=val_ds,
             tokenizer=self.tokenizer,
             data_collator=self.data_collator,
             compute_metrics=self.compute_metrics,
