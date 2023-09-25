@@ -13,7 +13,7 @@ def load_data(split, data_dir):
     Arguments
     --------
     split (str): the split to load. train, dev or test
-    data_dir (str): the folder containing the data
+    data_dir (sts): the folder containing the data
 
     Returns
     -------

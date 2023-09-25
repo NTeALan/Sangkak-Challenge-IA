@@ -5,6 +5,7 @@ import evaluate
 import torch
 import numpy as np
 import pandas as pd
+import itertools
 
 class AfrikaPOS:
     def __init__(self, data_dir, num_hiddens, num_attentions, base_model = 'bert-base-uncased', vocab_size = None) -> None:
@@ -34,7 +35,10 @@ class AfrikaPOS:
         self.model = BertForTokenClassification(config)
 
     def build_and_train_tokenizer(self):
-        training_corpus = get_tokenizer_training_corpus(self.data_dir)
+        if isinstance(self.data_dir, list):
+            training_corpus = itertools.chain(*[get_tokenizer_training_corpus(dd) for dd in self.data_dir])
+        else:
+            training_corpus = get_tokenizer_training_corpus(self.data_dir)
         tokenizer = AutoTokenizer.from_pretrained(self.base_model)
         tokenizer = tokenizer.train_new_from_iterator(training_corpus, tokenizer.vocab_size if self.vocab_size is None else self.vocab_size)
         self.tokenizer = tokenizer
@@ -47,7 +51,12 @@ class AfrikaPOS:
             return ds
         
         if isinstance(self.data_dir, list):
-            ds = concatenate_datasets([load_one_dataset(dd) for dd in self.data_dir])
+            dss = [load_one_dataset(dd) for dd in self.data_dir]
+            ds = dss[0]
+            for d in dss[1:]:
+                ds["train"] = concatenate_datasets([d["train"], ds["train"]])
+                ds["dev"] = concatenate_datasets([d["dev"], ds["dev"]])
+                ds["test"] = concatenate_datasets([d["test"], ds["test"]])
         else:
             ds = load_one_dataset(self.data_dir)
         self.dataset = ds 
