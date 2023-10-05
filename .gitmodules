@@ -4,3 +4,6 @@
 [submodule "propositions/SCIA-MMF-POS"]
 	path = propositions/SCIA-MMF-POS
 	url = https://github.com/frankl1/SCIA-MMF-POS
+[submodule "propositions/SCIA-CRF_XGBOOST_POS"]
+	path = propositions/SCIA-CRF_XGBOOST_POS
+	url = https://github.com/Levis0045/SCIA-CRF_XGBOOST_POS
