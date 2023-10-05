@@ -1,3 +1,6 @@
 [submodule "data_source/masakhane-pos"]
 	path = data_source/masakhane-pos
 	url = git@github.com:masakhane-io/masakhane-pos.git
+[submodule "propositions/SCIA-MMF-POS"]
+	path = propositions/SCIA-MMF-POS
+	url = https://github.com/frankl1/SCIA-MMF-POS
