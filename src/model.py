@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer, BertConfig, BertForTokenClassification, DataCollatorForTokenClassification, Trainer, TrainingArguments
 from datasets import Dataset, DatasetDict, concatenate_datasets
-from utils import get_tokenizer_training_corpus, load_data, LABEL2ID, ID2LABEL
+from .utils import get_tokenizer_training_corpus, load_data, LABEL2ID, ID2LABEL
 import evaluate
 import torch
 import numpy as np
