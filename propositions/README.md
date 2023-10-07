@@ -6,5 +6,5 @@ Ce fichier permet de lister tous les participants de la session, ainsi que le d√
 
 | **Nom du participant(s)** | **Titre de la proposition** | **Description de la proposition** | **Lien Github** | **Status**  |
 |---------------------------|-----------------------------|-----------------------------------|-----------------|-------------|
-| Elvis MBONING             | | [SCIA-CRF_LF (https://github.com/Levis0045/SCIA-CRF_LF)](https://github.com/Levis0045/SCIA-CRF_LF) | Complete |
-| Michael Franklin Mbouopda            |  LLM Model                            |                        |   [SCIA-MMF-POS (https://github.com/frankl1/SCIA-MMF-POS)](https://github.com/frankl1/SCIA-MMF-POS)              | Complete            |     
+| Elvis MBONING             | | | [SCIA-CRF_LF (https://github.com/Levis0045/SCIA-CRF_LF)](https://github.com/Levis0045/SCIA-CRF_LF) | Complete |
+| Michael Franklin Mbouopda            |  AfrikaPOS-16M                           |   A 16M parameters LLM model for POS tagging in Low-resource languages                     |   [SCIA-MMF-POS (https://github.com/frankl1/SCIA-MMF-POS)](https://github.com/frankl1/SCIA-MMF-POS)              | Complete            |     
